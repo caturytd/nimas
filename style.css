@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    width: 100%;
+ }
+
+ h1,h5{
+    text-align: center;
+    font-family: 'DynaPuff', cursive;
+    margin: 0%;
+    padding: 0%;
+    
+ }
+
+h1 a{
+    text-decoration: none;
+    color: rgb(197, 132, 27);
+    font-size: x-large;
+}
+
+ h5 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: small;
+ }
+
+ h6{
+    background-color: rgb(29, 130, 246);
+    color: white;
+    padding: 8px;
+ }
+
+ .foto{
+    margin-right: 5px;
+ }
+
+
+#awal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 34, 34);
+  }
+
+#awaldua {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 34, 34);
+  }
+  
+#awalkiri{
+    float: left;
+}
+
+#awalkiri:hover{
+    background-color: rgb(27, 79, 110);
+    transition: 0.27s;
+    animation-duration: 1s;
+}
+
+  #awalkiri a {
+    display: block;
+    color: white;
+    padding: 5px 7px 9px 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+  }
+
+
+
+nav{
+    margin-left: 75px;
+    margin-top: 2%;;
+    margin-right: 75px;
+}
+
+
+h2{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+    margin-bottom: 0%;
+}
+
+span{
+    border: 1px solid black;
+}
+
+.search{
+    border-radius: 6px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 1px;
+    width: 175px;
+    height: 25px;
+}
+
+
+.social-media-button.icon:before {
+    font-family: "FontAwesome";
+    padding-right: 0.5em;
+}
+
+.social-media-button.icon.twitter:before {
+    content: "\f099";
+}
+
+.social-media-button.icon.youtube:before {
+    content: "\f167";
+}
+
+
+.social-media-button.icon.instagram:before {
+    content: "\f16d";
+}
+ 
+ 
+.social-media-button.icon.whatsapp:before {
+    content: "\f232";
+}
+
+ 
+.social-media-button.icon.facebook:before {
+    content: "\f230";
+}
+
+#kelasp{
+    margin: 40px 40px 0px 40px;
+    background-color: white;
+}
+
+#kopixel{
+    text-align: center;
+    border-radius: 15%;
+}
+
+span{
+    border-radius: 15%;
+}
+
+#pixel{
+    margin: 0px 12px 10px 8px;
+}
+
+hr {
+    width: 100%;
+    padding: auto;
+    border-top: 3px solid #007BFF;
+    margin: auto;
+   }
